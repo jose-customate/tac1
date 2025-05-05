@@ -1,0 +1,125 @@
+// Wait for DOM to load
+document.addEventListener("DOMContentLoaded", function () {
+
+  // --------------------------------------------------------
+  // Mobile Menu Toggle
+  // --------------------------------------------------------
+  const navbarBurger = document.querySelector('.navbar-burger');
+  const navbarMenu = document.querySelector('.navbar-menu');
+  
+  if (navbarBurger && navbarMenu) {
+    navbarBurger.addEventListener('click', function() {
+      navbarBurger.classList.toggle('is-active');
+      navbarMenu.classList.toggle('is-active');
+      document.body.classList.toggle('menu-open');
+    });
+  }
+  
+  // --------------------------------------------------------
+  // Language Dropdown
+  // --------------------------------------------------------
+  const languageButton = document.querySelector(".language-button");
+  const dropdownContent = document.querySelector(".dropdown-content");
+  
+  if (languageButton && dropdownContent) {
+    languageButton.addEventListener("click", function(e) {
+      e.stopPropagation();
+      dropdownContent.style.display = 
+        dropdownContent.style.display === "block" ? "none" : "block";
+    });
+    
+    document.addEventListener("click", function() {
+      dropdownContent.style.display = "none";
+    });
+    
+    // Prevent clicks inside dropdown from closing it
+    dropdownContent.addEventListener("click", function(e) {
+      e.stopPropagation();
+    });
+  }
+
+  // --------------------------------------------------------
+  // Integrations Dropdown (Click-based)
+  // --------------------------------------------------------
+  const integrationsDropdown = document.querySelector('.navbar-item.has-dropdown');
+  const integrationsLink = integrationsDropdown?.querySelector('.navbar-link');
+  const navbarDropdown = integrationsDropdown?.querySelector('.navbar-dropdown');
+  
+  if (integrationsLink && navbarDropdown) {
+    // Add click event to the integrations link
+    integrationsLink.addEventListener('click', function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      
+      // Toggle the dropdown visibility
+      if (navbarDropdown.style.display === 'block') {
+        navbarDropdown.style.display = 'none';
+      } else {
+        navbarDropdown.style.display = 'block';
+      }
+    });
+    
+    // Close dropdown when clicking outside
+    document.addEventListener('click', function(e) {
+      if (!integrationsDropdown.contains(e.target)) {
+        navbarDropdown.style.display = 'none';
+      }
+    });
+    
+    // Prevent clicks inside the dropdown from closing it
+    navbarDropdown.addEventListener('click', function(e) {
+      e.stopPropagation();
+    });
+  }
+
+  // --------------------------------------------------------
+  // Mobile Navigation Dropdowns
+  // --------------------------------------------------------
+  const dropdownLinks = document.querySelectorAll('.navbar-link');
+  
+  if (dropdownLinks.length > 0 && window.innerWidth <= 768) {
+    dropdownLinks.forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        const dropdown = this.nextElementSibling;
+        
+        // Close all other dropdowns first
+        dropdownLinks.forEach(otherLink => {
+          if (otherLink !== link) {
+            const otherDropdown = otherLink.nextElementSibling;
+            if (otherDropdown) {
+              otherDropdown.style.display = 'none';
+            }
+          }
+        });
+        
+        if (dropdown) {
+          dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
+        }
+      });
+    });
+  }
+  
+  // --------------------------------------------------------
+  // Utility Functions
+  // --------------------------------------------------------
+  // Email validation
+  function isValidEmail(email) {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
+  }
+  
+  // --------------------------------------------------------
+  // Animation for Integration Cards (staggered appearance)
+  // --------------------------------------------------------
+  const integrationCards = document.querySelectorAll('.integration-card');
+  
+  if (integrationCards.length > 0) {
+    integrationCards.forEach((card, index) => {
+      setTimeout(() => {
+        card.style.opacity = '1';
+        card.style.transform = 'translateY(0)';
+      }, 200 * (index + 1));
+    });
+  }
+});
