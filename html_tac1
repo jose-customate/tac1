@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Connect Your Backend - Customate</title> 
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="https://github.com/jose-customate/email_signature_logo/blob/main/0803cm.png?raw=true">
+    <meta name="description" content="Customate helps businesses integrate their backend systems with our AI-powered customer service solution. Connect with Salesforce, Zendesk, Shopify and more.">
+  </head>
+  <body>
+    <!-- Top thin black banner with Language Dropdown -->
+    <div class="top-banner">
+      <div class="language-dropdown">
+        <button class="language-button">
+          <i class="fas fa-globe"></i> English <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#" class="active"><i class="fas fa-check"></i> English</a>
+          <a href="#">Español</a>
+          <a href="#">Deutsch</a>
+          <a href="#">Italiano</a>
+          <a href="#">हिंदी</a>
+          <a href="#">Norsk</a>
+          <a href="#">Hrvatski</a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Main navigation -->
+    <header class="header">
+      <div class="container-fluid">
+        <nav class="navbar">
+          <div class="navbar-brand">
+            <a href="https://www.customate.ai">
+              <img src="https://github.com/jose-customate/email_signature_logo/blob/main/0803cm.png?raw=true" alt="Customate" class="logo" />
+            </a>
+          </div>
+          
+          <div class="navbar-menu">
+            <div class="navbar-start">
+              <div class="navbar-item has-dropdown">
+                <a class="navbar-link">
+                  <span>Integrations</span>
+                  <i class="fas fa-chevron-down"></i>
+                </a>
+                <div class="navbar-dropdown">
+                  <a href="https://www.customate.ai/integratebackend" class="dropdown-item">
+                    <i class="dropdown-icon backend-icon"></i>
+                    Backend
+                  </a>
+                  <a href="https://www.customate.ai/integratechannels" class="dropdown-item">
+                    <i class="dropdown-icon channels-icon"></i>
+                    Channels
+                  </a>
+                </div>
+              </div>
+              
+              <a href="https://www.customate.ai/pricing" class="navbar-item">Pricing</a>
+              <a href="https://www.customate.ai/blog" class="navbar-item">Blog</a>
+            </div>
+            
+            <div class="navbar-end">
+              <a href="#" class="navbar-item btn-login">Log In</a>
+              <a href="#" class="navbar-item btn-primary">Sign Up</a>
+            </div>
+          </div>
+          
+          <div class="navbar-burger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+<main>
+  <section class="terms-content">
+    <h1>Terms and Conditions</h1>
+    
+    <h2>1. Introduction</h2>
+    
+    <h3>1.1 Purpose of the Terms and Conditions</h3>
+    <p>These Terms and Conditions (the "Agreement") govern the use of the service provides by Customated SSA UG (from now on, "Customate") and outline the rights and obligations of users and the service provider. By visiting our website, engaging in consulatations, and accessing or using our service, you agree to be bound by these terms.</p>
+    
+    <h3>1.2 Scope of Application</h3>
+    <p>These terms apply to all users who access, use, or interact with our service, whether as individuals, businesses, or third parties. They govern all activities within our platform, including any associated features, content, and tools.</p>
+    
+    <h2>2. User Registration and Accounts</h2>
+    
+    <h3>2.1 Account Creation and Eligibility</h3>
+    <p>To use our service, Customer must create an account by providing accurate and complete information. Customer must be at least 18 years old or have the legal capacity to enter into a contract. By registering, Customer confirms eligibility to use our service.</p>
+    
+    <h3>2.2 Responsibilities of the User</h3>
+    <p>Customers are responsible for maintaining the confidentiality of their account credentials, including their username and password. Customer is solely responsible for the accuracy, content and legality of all Customer Data. Customer specifically agrees not to use the Services to collect, store, process or transmit any Sensitive Personal Information. Customer agree to use the service in a responsible and ethical way, in compliance with these Terms and Conditions and all applicable laws.</p>
+    
+    <h3>2.3 Account Security</h3>
+    <p>Customer is required to implement appropriate measures to protect their accounts. Customer must notify the service provider immediately if any unauthorized access to their account is suspected.</p>
+    
+    <h2>3. Payment</h2>
+    
+    <h3>3.1 Subscription Plans and Fees</h3>
+    <p>The Customer agrees to the subscription plans and associated fees as specified on the service's website or agreed upon in a separate contract, and set in the applicable Order Form. Additionally, the customer may have a credit balance if they exceed the usage limit set in the basic subscription plan. Any change in pricing will be comunicated in advance, and will be automatically billed, unless the customer cancels the subscription.</p>
+    
+    <h3>3.2 Payment Methods and Conditions</h3>
+    <p>Customer may pay for the service using the follwing payment methods: credit cards (with a 2% increase in price) and direct bank account transfers. Payments must be made in advance, unless otherwise stated in the contract.</p>
+    <p>If Customer is purchasing the Services via credit card, debit card or any other recurring payment method accepted by Customate, the following terms apply: Recurring Billing is authorized, Customer pays any foreign transaction fees, and is responsible for any change in the payment method information.</p>
+    <p>Invalid Payment: If a payment is not successfully settled due to expiration of a Recurring Payment Method, insufficient funds, or otherwise, Customer remains responsible for any amounts not remitted to Customate and Customate may, in its sole discretion, either (i) invoice Customer directly for the deficient amount, (ii) continue billing the Recurring Payment Method once it has been updated by Customer (if applicable) or (iii) terminate this Agreement.</p>
+    
+    <h3>3.3 Invoicing and Taxes</h3>
+    <p>The service will issue invoices in accordance with the User's subscription plan. Customate will charge Customer the monthly subscription fee in advance of each billing period. Customer's invoice will also include any fees for one-time services ordered by Customer. All fees are exclusive of applicable taxes, which will be charged in accordance with local laws and regulations.</p>
+    
+    <h3>3.4 Late Payments and Consequences</h3>
+    <p>If the Customer fails to make payment on time, Customate reserves the right to suspend or terminate access to the service.</p>
+    
+    <h3>3.5 Subscription Term and Renewals</h3>
+    <p><strong>a) Monthly Subscription Term.</strong> For a month-to-month subscription, the Subscription Term will automatically renew on a monthly basis. Each successive contract month will be considered a "renewal term." Customer may cancel a month-to-month subscription at any time by going to the "Settings" page in the Dashboard, and the effective termination date will be the last day of the then-current renewal term.</p>
+    <p><strong>b) Yearly or Multi-Year Subscription Term.</strong> For a yearly or multi-year subscription, the initial Subscription Term is set forth in the Order Form. The Subscription Term will automatically renew for additional, successive twelve month periods (each, a "renewal term"), unless either party gives the other written notice of intent not to renew at least thirty (30) days prior to expiration of the initial Subscription Term or then-current renewal term. Customer will send written notice of intent not to renew to contact@customate.ai</p>
+    
+    <h2>4. Service Usage</h2>
+    
+    <h3>4.1 Permitted Use</h3>
+    <p>The Customer may access and utilize the service solely for its intended purpose. Use of and access to the Services is permitted only by Permitted Users. This is a subscription agreement for access to and use of the Services. Customer acknowledges that it is obtaining only a limited right to the Services and that no ownership rights are being conveyed to Customer under this Agreement. Usage must comply with applicable laws, contractual agreements, and these Terms and Conditions.</p>
+    
+    <h3>4.2 Prohibited Activities</h3>
+    <p>The Customer and all users are strictly prohibited from:</p>
+    <ul>
+      <li>Using the service for unlawful, fraudulent, or deceptive purposes;</li>
+      <li>Manipulating, or attempting to exploit the AI system beyond its intended function.</li>
+      <li>Deploying the chatbot in a manner that promotes hate speech, violence, or illegal content.</li>
+      <li>Exceeding fair use policies that may impact system stability or degrade service for other users.</li>
+    </ul>
+    
+    <h3>4.3 Use Limit</h3>
+    <p>The service may impose usage limits including but not limited to the number of interactions, API requests, or chatbot sessions.</p>
+    
+    <h3>4.4 Feedback</h3>
+    <p>Customer can always submit Feedback to Customate. Customate may freely use or exploit Feedback in connection with the Services and company Technology. Customer hereby grants to Customate a perpetual, non-exclusive, transferable, irrevocable, worldwide, royalty-free license (with rights to sublicense) to make, use, sell, offer to sell, reproduce, modify, distribute, make available, publicly display and perform, disclose and otherwise commercially exploit the Feedback.</p>
+    
+    <h3>4.5 Use of Customer Name and Logo</h3>
+    <p>By becoming a customer of Customate, Customer grants the right to display its company name and logo on Customate website, landing pages, and marketing materials to indicate our business relationship. This usage is for promotional purposes only and does not imply any endorsement. Customer may opt out, by providing a written request to jose@customate.ai .</p>
+    
+    <h3>4.6 Ownership of Website Content</h3>
+    <p>All text, images, logos, trademarks, and other content on the website are the intellectual property of the service provider or its licensors unless otherwise stated. Unauthorized reproduction, distribution, or modification of any materials is strictly prohibited without prior written consent.</p>
+    
+    <h2>5. Third-Party Content and Licensing</h2>
+    
+    <h3>5.1 Use of Third-Party Content</h3>
+    <p>The service may integrate or provide access to third-party content, including software, APIs, data sources, or other external services. The User acknowledges that such third-party content is subject to the respective providers' terms and conditions and licensing agreements.</p>
+    
+    <h3>5.2 Licensing and Intellectual Property</h3>
+    <p>All third-party content used within the service remains the property of its respective owners. The Customer is granted a non-exclusive, non-transferable license to use such content strictly within the scope of the service's intended functionality. Any unauthorized reproduction, distribution, or modification of third-party content is prohibited.</p>
+    
+    <h3>5.3 Disclaimer of Liability</h3>
+    <p>Customate assumes no responsibility for the accuracy, availability, or performance of third-party content. Any disruptions, errors, or losses resulting from third-party integrations are beyond the provider's control. The Customer and all users agree that the provider shall not be held liable for damages arising from third-party content, including security vulnerabilities, data breaches, or licensing disputes.</p>
+    
+    <h2>6. Liability and Warranties</h2>
+    
+    <h3>6.1 Service Guarantees and Limitations</h3>
+    <p>The service is provided on an "as-is" and "as-available" basis. While the provider strives for high availability and reliability, no guarantees are made regarding uninterrupted or error-free operation. The provider does not warrant that the service will meet all specific requirements or function without disruptions, bugs, or vulnerabilities. Customate will have no responsibility for errors in transmission, unauthorized third-party access or other causes beyond Customate's control.</p>
+    
+    <h3>6.2 Liability for Errors or Downtime</h3>
+    <p>The provider is not liable for temporary unavailability, errors, or service interruptions due to maintenance, technical failures, cyberattacks, or force majeure events.</p>
+    
+    <h3>6.3 Other Customate Liabilities</h3>
+    <p>The provider is only liable for damages caused by gross negligence or willful misconduct, as permitted by applicable law. Liability for indirect, incidental, or consequential damages—such as lost profits, data loss, or business interruptions—is excluded. The Customer assumes full responsibility for ensuring that service usage complies with applicable regulations and business requirements.</p>
+    <p>Customer will not settle any claim that involves Customate without Customate's prior written consent, unless the settlement fully and unconditionally releases Customate and does not require Customate to pay any amount, take any action, or admit any liability.</p>
+    
+    <h3>6.4 Customer Liabilities</h3>
+    <p>Customer will indemnify, defend and hold harmless Customate from and against any and all third party (including, without limitation, People) claims, costs, damages, losses, liabilities and expenses (including reasonable attorneys' fees and costs) arising from or relating to any Customer Data, Customer's use of a Third Party Messaging App, Third-Party Platform or breach or alleged breach by Customer of Section 2.2.</p>
+    
+    <h2>7. Termination and Cancellation</h2>
+    
+    <h3>7.1 Cancellation by the User</h3>
+    <p>The Customer may cancel their subscription or account at any time by following the cancellation procedures provided in the service platform. Cancellation will take effect at the end of the current billing period, unless otherwise stated. The Customer will remain responsible for any fees incurred up until the cancellation date.</p>
+    
+    <h3>7.2 Termination by the Provider</h3>
+    <p>The provider reserves the right to terminate or suspend the User's access to the service in the event of a breach of these Terms and Conditions, including but not limited to unauthorized usage, failure to make timely payments, or violation of applicable laws, or by any other reason, soley at the discretion of the company. The provider may provide prior notice where possible, but immediate termination may occur in cases of severe violations.</p>
+    
+    <h3>7.3 Consequences of Termination</h3>
+    <p>Upon termination or cancellation of the Customer's account, access to the service will be revoked, and all data associated with the account may be deleted, subject to any legal or contractual data retention requirements. The Customer will remain liable for any outstanding payments at the time of termination.</p>
+    
+    <h2>8. Other elements</h2>
+    <p>The policies on Data Protection & Privacy, Security, and the corporate legal status of Customate are shared in the website: www.customate.ai</p>
+    
+    <h2>9. Amendments to the Terms</h2>
+    
+    <h3>9.1 Right to Modify the Terms</h3>
+    <p>The provider reserves the right to modify, update, or amend these Terms and Conditions at any time. These changes may be made to reflect changes in the law, service enhancements, or for other operational reasons.</p>
+    
+    <h3>9.2 Notification of Changes</h3>
+    <p>The Customer will be notified of any material changes to the Terms and Conditions via email or through a notice on the service platform. Notifications will be sent in advance where possible, and any updates will be clearly indicated with the effective date of the changes.</p>
+    
+    <h3>9.3 User Acceptance of Changes</h3>
+    <p>Continued use of the service following the notification of changes will be deemed as the User's acceptance of the updated Terms and Conditions. If the Customer does not agree with the changes, they may cancel their account as provided in Section 7 (Termination and Cancellation).</p>
+    
+    <h2>10. Dispute Resolution and Governing Law</h2>
+    
+    <h3>10.1 Complaint Resolution Process</h3>
+    <p>In the event of a dispute or complaint, the User should first contact the provider's customer support team to attempt to resolve the issue amicably. The provider will make reasonable efforts to address the User's concerns promptly and in accordance with applicable laws. If the dispute cannot be resolved through direct communication, the Customer may seek mediation or alternative dispute resolution (ADR) in accordance with applicable regulations.</p>
+    
+    <h3>10.2 Governing Law</h3>
+    <p>These Terms and Conditions are governed by and construed in accordance with the laws of Germany, without regard to its conflict of law provisions.</p>
+    
+    <h3>10.3 Jurisdiction</h3>
+    <p>Any disputes that cannot be resolved through informal communication or ADR will be subject to the exclusive jurisdiction of the competent courts in Germany.</p>
+    
+    <h2>11. Absence of a Miscellaneous Clause</h2>
+    <p>This agreement does not include a separate "Miscellaneous" section, as such provisions are inherently embedded within the nature of any contract. The principles typically covered under a miscellaneous clause—such as severability, waiver, and enforceability—are fundamental aspects of contractual interpretation and application, rendering their explicit restatement unnecessary. Their omission does not diminish their validity or effect but rather acknowledges the self-sufficiency of the contract as a legal instrument.</p>
+    
+    <h2>12. Contact Information</h2>
+    
+    <h3>12.1 Support and Inquiries</h3>
+    <p>For any questions, concerns, or support requests, the User can contact our customer support team through the following channels:</p>
+    <ul>
+      <li>Email: admin (a,t) customate.ai </li>
+      <li>Customate Chat: Available on the service platform</li>
+    </ul>
+    <p>Support is available during business hours, and we aim to respond to inquiries as promptly as possible.</p>
+    
+    <h3>12.2 Reporting Issues</h3>
+    <p>If the User encounters any technical issues, security concerns, or violations of the Terms and Conditions, they should report them to the provider immediately. Reports can be submitted via:</p>
+    <ul>
+      <li>Email: admin (a,t) customate.ai </li>
+    </ul>
+    <p>The provider will investigate all reports and take appropriate actions based on the severity and nature of the issue.</p>
+  </section>
+</main>
+
+  </body>
+</html>
