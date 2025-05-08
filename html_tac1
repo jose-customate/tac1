@@ -21,12 +21,11 @@
         </button>
         <div class="dropdown-content">
           <a href="#" class="active"><i class="fas fa-check"></i> English</a>
-          <a href="#">Español</a>
+          <a href="#">English</a>
           <a href="#">Deutsch</a>
-          <a href="#">Italiano</a>
-          <a href="#">हिंदी</a>
-          <a href="#">Norsk</a>
+          <a href="#">Español</a>
           <a href="#">Hrvatski</a>
+          <a href="#">Norsk</a>
         </div>
       </div>
     </div>
